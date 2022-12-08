@@ -33,7 +33,7 @@ pipeline {
     	
     	
 	    
-/*	    stage('SONARQUBE') {
+	    stage('SONARQUBE') {
 		    steps {
 		    sh "mvn sonar:sonar -Dsonar.projectKey=ala -Dsonar.host.url=http://192.168.1.21:9000 -Dsonar.login=be9910f2524099f9c5e01c4f2a179db26113f8b1"
 	        }
@@ -45,7 +45,7 @@ pipeline {
 			}
 		} 
 	    
-*/	    
+	    
 /*	 stage('Build docker image'){
             steps{
                 script{
